@@ -1,0 +1,210 @@
+/* Fond d'écran et polices*/
+#navigation
+{
+    background-color: #064883 ;
+}
+#accueil
+{
+    background-color: #f5bccaff ;
+    font-family: Comfortaa, Arial, sans-serif;
+}
+ul
+{
+    list-style: none;
+}
+nav ul li
+{
+    margin-left: 30px;
+    margin-top: 50px;
+    font-family: aller_Rg, Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 1.1em;
+    
+}
+h1
+{
+    font-size: 1.1em;
+    text-align: center;
+}
+P
+{
+    font-size: 0.9em;
+}
+h1:hover
+{
+    font-weight: bold;
+    font-size: 1.3em;
+}
+h2:hover
+{
+    font-weight: bold;
+    font-size: 1.3em;
+}
+h3:hover
+{
+    font-weight: bold;
+    font-size: 2em;
+}
+p:hover
+{
+    border-left: 6px solid #064883;
+    font-size: 1em;
+}
+a:hover
+{
+    font-size: 1.4em;
+    color: dimgrey;
+}
+a:visited
+{
+    color: beige;
+    text-decoration: none;
+}
+/* organisation de la page*/
+#corps_site
+{
+    display: flex ;
+    width: 100%;
+}
+
+
+.centre
+{
+    padding-left: 28%;
+    width: 30%
+}
+.baniere
+{
+    padding-left: 36%;
+    width: 29%
+    
+}
+#contenu
+{
+    clear: left;
+    padding-left: 16%;
+    padding-top: 4%;
+    text-align: justify ;
+    vertical-align: top;
+    font-family: Comfortaa, Arial,sans-serif;
+}
+#fond
+{
+    float: right;
+}
+
+
+.musique
+{
+    text-align: end;
+    padding-right: 5px;
+}
+/* Page 2*/
+.texte
+{   
+    padding-right: 18%;
+    padding-left: 16%;
+    padding-top: 0;
+    margin-top: 0;
+    text-align: justify ;
+    font-family: Comfortaa, Arial,sans-serif;   
+}
+.haut
+{
+    display: flex;
+}
+.logo_2
+{
+    margin-left: 20%;
+}
+
+/* Page 3*/
+#competences
+{
+    display: flex;
+}
+
+aside
+{
+    width: 30%;
+}
+.illustration
+{
+    margin-left: 10px;
+    padding-left: 5px;
+}
+article
+{
+    width: 70%;
+    margin-right: 100px;
+    padding-right: 50px;
+}
+/* Page 4*/
+#bloc4
+{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 0;
+}
+.contact
+{
+    margin-left: 100px;
+    margin-right: 400px;
+    padding-left: 15px;
+    width: 70%;
+}
+.illustration2
+{
+    margin-left: 20PX;
+    padding-left: 20px;
+    width: 300px;
+}
+
+/*Page 5*/
+
+.tab
+{
+    width: 50%;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+/* Média Queries */
+@media all and (max-width: 1024px)
+{
+    #navigation
+    {
+        width: 23%;
+    }
+    .logo_made
+    {
+        width: 20%;
+    }
+    nav ul
+    {
+        justify-content: flex-start;
+        margin-left: 0;
+        font-size: 0.6em;
+        padding-left: 0;
+        
+    }
+    .logo_2
+    {
+        margin-left: 0;
+        padding-left: 0;
+    }
+    #corps_site
+    {
+        width: 100%;
+    }
+    #bloc4, #competences
+    {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 10px;
+        padding-left: 5px;
+    }
+}
