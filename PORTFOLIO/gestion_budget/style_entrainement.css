@@ -1,0 +1,178 @@
+/* Tableau*/
+
+table
+{
+    border-collapse: collapse;
+}
+td, th
+{
+    border: 1px solid grey;
+    background-color: azure;
+}
+
+/* Police et couleur*/
+
+#corps
+{
+    color: darkblue;
+    background-color: #ddf0f8 ;
+}
+
+h1
+{
+    font-size: 3em;
+    text-align: center ;
+    font-family: Wonderplay, georgia, sans-serif;
+}
+h2
+{
+    font-size: 1.8em;
+    text-align: center;
+    font-family: Wonderplay, georgia, sans-serif;
+}
+h3
+{
+    font-size: 1.5em ;
+    font-family: Wonderplay, georgia, sans-serif;
+}
+span
+{
+    text-decoration: underline;
+    font-weight: bold;
+}
+table
+{
+    font-family: Wonderplay, georgia, sans-serif;
+    padding: 10px ;
+    margin-left: 100px
+}
+th
+{
+    padding: 10px
+}
+td
+{
+    padding: 10px
+}
+.introduction
+{
+    font-style: italic;
+    font-family: TheStudentsteacher, georgia, Arial, sans-serif;
+}
+p
+{
+    text-align: justify ;
+}
+table
+{
+    text-align: center;
+}
+/* Mise en page - bordures */
+
+#baniere
+{
+    float: left ;
+}
+.introduction
+{
+    clear: right ;
+    background-color: #bbcfd7;
+    border: 1px black solid;
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px #bbcfd7;
+}
+.corps
+{
+    clear: both;
+}
+.etape
+{
+    border : 3px #a8e6ff dashed;
+    border-radius: 50px/30px;
+}
+p:hover
+{
+    border-left: 3px solid darkblue;
+}
+em:hover
+{
+    border-left: 3px solid darkblue;
+}
+
+/* Hauteurs*/
+h1
+{
+    padding-top: 60px;
+    padding-bottom: 90px;
+}
+#baniere
+{
+    width: 60% ;
+    height: auto;
+}
+.introduction
+{
+    margin-left: 65%;
+    margin-top: 80px;
+    width: 25%;
+    height: 200px;
+    
+}
+.corps
+{
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.etape
+{
+    padding: 20px;
+    margin: 50px ;
+    display: flex;
+    flex-wrap: wrap
+}
+h3
+{
+    width: 70% ;
+}
+em
+{
+    width: 70% ;
+}
+article
+{
+    width: 60%
+}
+#ajust
+{
+    display: flex;
+    flex-direction: row;
+}
+.introduction
+{
+    padding: 30px;
+}
+.petit
+{
+    height: 300px;
+}
+.grand
+{
+    height: 500px;
+}
+.petit:nth-child(4)
+{
+    align-self: flex-start;
+}
+.image_fin
+{
+    margin-left: 100px;
+}
+.charges
+{
+    width:400px;
+    margin-left: 150px;
+}
+.entrees
+{
+    margin-left: 200px;
+}

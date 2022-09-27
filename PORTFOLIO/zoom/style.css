@@ -1,0 +1,262 @@
+/* ploice personalisé */
+*
+{
+    font-family: Trebuchet MS, "KG Corner of the Sky", Verdana, Arial ; 
+}
+nav
+{
+    display: none;
+}
+/* Styles principaux pour chaque bloc */
+
+#bloc_page
+{
+    background-color: #fccbdd ;
+    color: #232222;
+    
+}
+.photo
+{
+    width: 20%;
+}
+#pied
+{
+    display: flex;
+    justify-content: space-around;
+    border-top: dotted;
+    border-color: darkred;
+}
+#dernier_tweet
+{
+    width: 300px;
+}
+#mes_photos
+{
+    width: 700px;
+    align-content: center;
+}
+
+#lieux
+{
+    width: 500px;
+    text-align: justify;
+}
+
+aside
+{
+    background-color: #585858;
+    color: #ffffff;
+    text-align: justify;
+    border-radius: 20px/10px;
+}
+article
+{
+    text-align: justify;
+    padding-top: 5px;
+    margin-bottom: 70px;
+    margin-top: 30px;
+}
+p
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#entete
+{
+    display: flex;
+    flex-direction: row;
+}
+
+
+#baniere_image
+{
+    border-top: 2px darkred solid;
+    padding-top: 50px;
+    display: flex;
+    padding-bottom: 50px;
+}
+.baniere
+{
+    position: relative;
+    right: 0px;
+    bottom: 0px;
+    z-index: 1;
+}
+.baniere_texte
+{
+    background-color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 98%;
+    z-index: 2;
+}
+.article
+{
+    position: absolute;
+    right: 800px;
+    bottom: 0px;
+    z-index: 3;
+}
+.flottant
+{
+    width: 55%;
+    height: auto;
+}
+.baniere
+{
+        width: 100%;
+}
+
+
+h1 
+{
+    font-size: 3em;
+}
+ul
+{
+    list-style-type: none;
+    display : flex;
+    margin :auto;
+    align-self: flex-end;
+}
+
+li
+{
+    width: 150px;
+    height: auto;
+
+}
+
+h2
+{
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+
+p
+{
+    font-size: 1em;    
+}
+
+h3
+{
+    font-size: 1.3em;
+    text-align: center;
+}
+h4
+{
+    font-size: 1.3em;    
+}
+/* Ajustement des blocs */
+
+nav
+{
+    align-content: flex-end;
+    padding: 100px;
+
+}
+#corps_site
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: center;
+    padding: 3px 5px 4px 3px;
+}
+article
+{
+    background-color: #f7e4ea;
+    width: 50%;
+}
+aside
+{
+    width: 35%;
+    justify-content: center;
+}
+/* Ajustement taille des images */
+#photo_moi
+{
+    margin-left: 140px;
+    width: 7%;
+    height: auto;
+    align-items: center;
+}
+.liens
+{
+    width: 10%;
+    margin: 30px;
+    justify-content: space-around;
+    display: inline-block;
+    flex-direction: row;
+    
+}
+.lien
+{
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Le media Query */
+
+@media all and (max-width:1024px)
+{
+    #bloc_page
+    {
+    width: auto;
+    }
+    nav ul
+    {
+        flex-direction: column ;
+    }
+    nav li
+    {
+        padding-left: 4px ;
+    }
+    nav a
+    {
+        font-size: 1.1em ;
+    }
+    nav a:hover
+    {
+        border-bottom: 0;
+    }
+    
+    #corps_site
+    {
+        flex-direction: column;
+    }
+    article
+    {
+        width: 98%;
+    }
+    aside
+    {
+        width: 90%;
+        text-align: center;
+    }
+    .baniere_texte
+    {
+        display: none;
+    }
+    .liens
+    {
+        width: 10 %;
+        margin: 2px ;
+    }
+    #photo_moi
+    {
+        display: none;
+    }
+    aside p
+    {
+        clear: right;
+    }
+    .flottant
+    {
+        display: none ;
+    }
+}
